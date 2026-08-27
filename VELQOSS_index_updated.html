@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VELQOSS | Printing Catalog</title>
+<meta name="description" content="VELQOSS printing catalog — choose a product and order directly on WhatsApp.">
+<style>
+:root{--gold:#d7ad4a;--gold2:#f3d889;--black:#070707;--card:#121212;--text:#f8f3e8;--muted:#bdb7aa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--black);color:var(--text)}
+a{text-decoration:none;color:inherit}
+.nav{position:sticky;top:0;z-index:20;background:#090909ee;border-bottom:1px solid #5b4820;backdrop-filter:blur(10px)}
+.navin{max-width:1150px;margin:auto;padding:14px 18px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:25px;font-weight:800;letter-spacing:3px;color:var(--gold2)}
+.navlinks{display:flex;gap:22px;font-size:14px}
+.navlinks a:hover{color:var(--gold2)}
+.hero{min-height:72vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:65px 18px;background:radial-gradient(circle at 50% 15%,#29200d 0,#0b0b0b 38%,#050505 75%)}
+.hero h1{font-size:clamp(45px,9vw,92px);margin:0;color:var(--gold2);letter-spacing:7px}
+.hero p{font-size:18px;color:var(--muted);letter-spacing:2px}
+.eyebrow{font-size:14px;letter-spacing:4px;color:#c9a44c;margin-bottom:15px}
+.btn{display:inline-block;margin:8px 5px;padding:13px 21px;border:1px solid var(--gold);border-radius:8px;color:#111;background:var(--gold2);font-weight:700}
+.btn.alt{background:transparent;color:var(--gold2)}
+.section{max-width:1150px;margin:auto;padding:60px 18px}
+.title{text-align:center;color:var(--gold2);font-size:32px;margin:0 0 12px}
+.subtitle{text-align:center;color:var(--muted);margin:0 auto 35px;max-width:700px;line-height:1.6}
+.filters{display:flex;gap:9px;flex-wrap:wrap;justify-content:center;margin-bottom:25px}
+.filter{border:1px solid #604c22;background:#111;color:var(--gold2);padding:9px 14px;border-radius:999px;cursor:pointer}
+.filter.active,.filter:hover{background:var(--gold2);color:#111}
+.catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:18px}
+.product{background:linear-gradient(145deg,#181818,#0c0c0c);border:1px solid #604c22;border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.product.hide{display:none}
+.preview{height:175px;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,#30250f,#111 62%,#090909);position:relative}
+.preview-card{width:78%;height:115px;border:1px solid #a98235;border-radius:7px;background:linear-gradient(135deg,#0b0b0b,#211a0b);box-shadow:0 10px 25px #000;display:grid;place-items:center;color:var(--gold2);font-weight:800;letter-spacing:3px}
+.preview-card span{font-size:12px;letter-spacing:1px;font-weight:400;color:#d4bd7c}
+.icon{font-size:48px;color:var(--gold2)}
+.product-body{padding:18px}
+.product h3{margin:0 0 8px;color:#fff}
+.product p{margin:0 0 14px;color:var(--muted);font-size:14px;line-height:1.5}
+.product .orderbtn{display:block;text-align:center;background:var(--gold2);color:#111;padding:11px;border-radius:7px;font-weight:800}
+.order{background:#111;border-top:1px solid #4e3c1c;border-bottom:1px solid #4e3c1c;text-align:center}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px}
+.step{padding:18px}.num{width:36px;height:36px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:auto;color:var(--gold2)}
+.contact{text-align:center}.contact p{color:var(--muted)}
+footer{padding:25px;text-align:center;color:#8e887d;border-top:1px solid #332713;font-size:13px}
+@media(max-width:650px){.navlinks{display:none}.hero{min-height:65vh}.hero p{font-size:14px}.section{padding:45px 14px}.catalog{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="navin">
+    <div class="logo">VELQOSS</div>
+    <div class="navlinks">
+      <a href="#catalog">Products</a>
+      <a href="#order">How to Order</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <div class="eyebrow">PRINTING THAT REPRESENTS YOUR IDENTITY</div>
+    <h1>VELQOSS</h1>
+    <p>QUALITY. STYLE. VELQOSS.</p>
+    <a class="btn" href="#catalog">View All Products</a>
+    <a class="btn alt" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20want%20to%20place%20an%20order.">Order on WhatsApp</a>
+  </div>
+</section>
+
+<section class="section" id="catalog">
+  <h2 class="title">Our Product Catalog</h2>
+  <p class="subtitle">Product pasand kijiye, <b>Order on WhatsApp</b> dabaiye, aur product ka naam automatically chat mein chala jayega.</p>
+
+  <div class="filters">
+    <button class="filter active" onclick="filterProducts('all',this)">All</button>
+    <button class="filter" onclick="filterProducts('cards',this)">Cards</button>
+    <button class="filter" onclick="filterProducts('id',this)">ID / PVC</button>
+    <button class="filter" onclick="filterProducts('invitation',this)">Invitation</button>
+    <button class="filter" onclick="filterProducts('business',this)">Business</button>
+  </div>
+
+  <div class="catalog">
+    <article class="product" data-cat="cards">
+      <div class="preview"><div class="preview-card">VELQOSS<br><span>VISITING CARD</span></div></div>
+      <div class="product-body"><h3>Visiting Cards</h3><p>Professional visiting cards for personal and business use.</p><a class="orderbtn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20like%20the%20Visiting%20Cards.%20Please%20send%20designs%2C%20price%20and%20details.">Order on WhatsApp</a></div>
+    </article>
+
+    <article class="product" data-cat="invitation">
+      <div class="preview"><div class="icon">✉</div></div>
+      <div class="product-body"><h3>Invitation Cards</h3><p>Invitation designs for events, functions and celebrations.</p><a class="orderbtn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20like%20the%20Invitation%20Cards.%20Please%20send designs%2C%20price%20and%20details.">Order on WhatsApp</a></div>
+    </article>
+
+    <article class="product" data-cat="id">
+      <div class="preview"><div class="icon">▣</div></div>
+      <div class="product-body"><h3>ID Cards</h3><p>School, office and organization ID card printing.</p><a class="orderbtn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20like%20the%20ID%20Cards.%20Please%20send%20designs%2C%20price%20and%20details.">Order on WhatsApp</a></div>
+    </article>
+
+    <article class="product" data-cat="business">
+      <div class="preview"><div class="preview-card">VELQOSS<br><span>BUSINESS CARD</span></div></div>
+      <div class="product-body"><h3>Business Cards</h3><p>Premium business cards for professional branding.</p><a class="orderbtn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20like%20the%20Business%20Cards.%20Please%20send%20designs%2C%20price%20and%20details.">Order on WhatsApp</a></div>
+    </article>
+
+    <article class="product" data-cat="id">
+      <div class="preview"><div class="icon">▭</div></div>
+      <div class="product-body"><h3>PVC Cards</h3><p>Durable PVC card printing options for different requirements.</p><a class="orderbtn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20like%20the%20PVC%20Cards.%20Please%20send%20designs%2C%20price%20and%20details.">Order on WhatsApp</a></div>
+    </article>
+
+    <article class="product" data-cat="cards">
+      <div class="preview"><div class="icon">▱</div></div>
+      <div class="product-body"><h3>Custom Printing</h3><p>Need something else? Send your requirement and we will discuss the best option.</p><a class="orderbtn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20need%20a%20custom%20printing%20product.%20Please%20help%20me%20with%20options%20and%20price.">Ask on WhatsApp</a></div>
+    </article>
+  </div>
+</section>
+
+<section class="section order" id="order">
+  <h2 class="title">Simple WhatsApp Ordering</h2>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Choose</h3><p>Catalog mein apna product select karein.</p></div>
+    <div class="step"><div class="num">2</div><h3>Send Details</h3><p>Quantity, size, design aur requirements WhatsApp par bhejein.</p></div>
+    <div class="step"><div class="num">3</div><h3>Confirm</h3><p>Design, price aur delivery/collection details discuss karke order confirm karein.</p></div>
+  </div>
+  <p><a class="btn" href="https://wa.me/919117689119?text=Hello%20VELQOSS%2C%20I%20want%20a%20quotation.">Get a Quote on WhatsApp</a></p>
+</section>
+
+<section class="section contact" id="contact">
+  <h2 class="title">Contact VELQOSS</h2>
+  <p><strong>Owner:</strong> Sahil Kr Sona</p>
+  <p>📞 9117689119 &nbsp; | &nbsp; ✉ Sonasahil70@gmail.com</p>
+  <p>📍 JSR &nbsp; | &nbsp; 🌐 VELQOSS.in</p>
+  <a class="btn" href="https://wa.me/919117689119?text=Hello%20VELQOSS">Chat on WhatsApp</a>
+</section>
+
+<footer>© 2026 VELQOSS. Quality. Style. VELQOSS.</footer>
+
+<script>
+function filterProducts(cat,button){
+  document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));
+  button.classList.add('active');
+  document.querySelectorAll('.product').forEach(p=>{
+    p.classList.toggle('hide',cat!=='all' && p.dataset.cat!==cat);
+  });
+}
+</script>
+</body>
+</html>
