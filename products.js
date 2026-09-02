@@ -1,12 +1,3 @@
-/*
-  EASY MAINTENANCE:
-  Edit ONLY this file when you want to add/remove/change products.
-  No need to touch index.html or styles.css.
-
-  price: Keep it as "Starting from ₹..." or "Get quote" if your price changes.
-  category must match one of the CATEGORIES below.
-*/
-
 const CATEGORIES = [
   { id: "cards", name: "Cards" },
   { id: "id", name: "ID / PVC" },
@@ -21,90 +12,129 @@ const PRODUCTS = [
     name: "Visiting Cards",
     category: "cards",
     categoryLabel: "Cards",
-    description: "Professional cards for personal branding, shops and businesses.",
+    description:
+      "Professional visiting cards for personal branding, shops and businesses.",
     price: "Get quote",
     badge: "Popular",
-    icon: "▤",
+    image: "images/sahil13.jpg",
+    icon: "",
     theme: ""
   },
+
   {
     name: "Business Cards",
     category: "business",
     categoryLabel: "Business",
-    description: "Premium business cards designed around your brand identity.",
+    description:
+      "Premium business cards designed around your brand identity.",
     price: "Get quote",
     badge: "Premium",
-    icon: "▥",
+    image: "images/sahil14.jpg",
+    icon: "",
     theme: "theme-light"
   },
+
   {
     name: "ID Cards",
     category: "id",
     categoryLabel: "ID / PVC",
-    description: "School, office, club and organization ID card printing.",
+    description:
+      "School, office, club and organization ID card printing.",
     price: "Get quote",
     badge: "Bulk",
-    icon: "▣",
+    image: "images/sahil15.jpg",
+    icon: "",
     theme: "theme-blue"
   },
+
   {
     name: "PVC Cards",
     category: "id",
     categoryLabel: "ID / PVC",
-    description: "Durable PVC card options for identification and membership use.",
+    description:
+      "Durable PVC cards for identification, membership and professional use.",
     price: "Get quote",
     badge: "Durable",
+    image: "images/sahil12.jpg",
     icon: "▭",
     theme: ""
   },
+
   {
     name: "Invitation Cards",
     category: "invitation",
     categoryLabel: "Invitation",
-    description: "Custom invitations for birthdays, weddings, functions and events.",
+    description:
+      "Custom invitations for birthdays, weddings, functions and events.",
     price: "Get quote",
     badge: "Custom",
+    image: "images/sahil10.jpg",
     icon: "✉",
     theme: "theme-light"
   },
+
+  {
+    name: "Appointment Cards",
+    category: "business",
+    categoryLabel: "Business",
+    description:
+      "Professional appointment cards for shops, offices and service businesses.",
+    price: "Get quote",
+    badge: "Business",
+    image: "images/sahil8.jpg",
+    icon: "",
+    theme: ""
+  },
+
   {
     name: "Photo Gifts",
     category: "gifts",
     categoryLabel: "Gifts",
-    description: "Personalized photo products and gift printing. Availability on request.",
+    description:
+      "Personalized photo products and custom gift printing.",
     price: "Ask availability",
     badge: "Custom",
+    image: "images/photo-gifts.jpg",
     icon: "♡",
     theme: "theme-red"
   },
+
   {
     name: "Sublimation Printing",
     category: "gifts",
     categoryLabel: "Gifts",
-    description: "Custom printing for suitable sublimation blanks and products.",
+    description:
+      "Custom printing for suitable sublimation blanks and products.",
     price: "Get quote",
     badge: "Custom",
+    image: "images/sublimation.jpg",
     icon: "◇",
     theme: ""
   },
+
   {
     name: "Logo & Poster Design",
     category: "design",
     categoryLabel: "Design",
-    description: "Clean digital designs for logos, posters, social media and print.",
+    description:
+      "Clean digital designs for logos, posters, social media and print.",
     price: "Get quote",
     badge: "Digital",
+    image: "images/sahil11.jpg",
     icon: "✦",
     theme: "theme-blue"
   },
+
   {
     name: "Custom Printing",
     category: "design",
     categoryLabel: "Design",
-    description: "Have a different requirement? Send your reference and quantity.",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
     price: "Get quote",
     badge: "Flexible",
-    icon: "＋",
+    image: "images/sahil1.jpg",
+    icon: "",
     theme: ""
   }
 ];
