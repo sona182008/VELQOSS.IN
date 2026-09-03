@@ -16,7 +16,7 @@ const PRODUCTS = [
       "Professional visiting cards for personal branding, shops and businesses.",
     price: "Get quote",
     badge: "Popular",
-    image: "images/sahil13.jpg",
+    image: "sahil13.jpg",
     icon: "",
     theme: ""
   },
@@ -29,7 +29,7 @@ const PRODUCTS = [
       "Premium business cards designed around your brand identity.",
     price: "Get quote",
     badge: "Premium",
-    image: "images/sahil14.jpg",
+    image: "sahil14.jpg",
     icon: "",
     theme: "theme-light"
   },
@@ -42,7 +42,7 @@ const PRODUCTS = [
       "School, office, club and organization ID card printing.",
     price: "Get quote",
     badge: "Bulk",
-    image: "images/sahil15.jpg",
+    image: "sahil15.jpg",
     icon: "",
     theme: "theme-blue"
   },
@@ -55,8 +55,8 @@ const PRODUCTS = [
       "Durable PVC cards for identification, membership and professional use.",
     price: "Get quote",
     badge: "Durable",
-    image: "images/sahil12.jpg",
-    icon: "▭",
+    image: "sahil12.jpg",
+    icon: "",
     theme: ""
   },
 
@@ -68,7 +68,7 @@ const PRODUCTS = [
       "Custom invitations for birthdays, weddings, functions and events.",
     price: "Get quote",
     badge: "Custom",
-    image: "images/sahil10.jpg",
+    image: "/sahil10.jpg",
     icon: "✉",
     theme: "theme-light"
   },
@@ -81,7 +81,7 @@ const PRODUCTS = [
       "Professional appointment cards for shops, offices and service businesses.",
     price: "Get quote",
     badge: "Business",
-    image: "images/sahil8.jpg",
+    image: "sahil8.jpg",
     icon: "",
     theme: ""
   },
@@ -94,7 +94,7 @@ const PRODUCTS = [
       "Personalized photo products and custom gift printing.",
     price: "Ask availability",
     badge: "Custom",
-    image: "images/photo-gifts.jpg",
+    image: "sahil15.jpg",
     icon: "♡",
     theme: "theme-red"
   },
@@ -107,7 +107,7 @@ const PRODUCTS = [
       "Custom printing for suitable sublimation blanks and products.",
     price: "Get quote",
     badge: "Custom",
-    image: "images/sublimation.jpg",
+    image: "sahil2.jpg",
     icon: "◇",
     theme: ""
   },
@@ -120,7 +120,7 @@ const PRODUCTS = [
       "Clean digital designs for logos, posters, social media and print.",
     price: "Get quote",
     badge: "Digital",
-    image: "images/sahil11.jpg",
+    image: "sahil11.jpg",
     icon: "✦",
     theme: "theme-blue"
   },
@@ -133,7 +133,7 @@ const PRODUCTS = [
       "Have a different requirement? Send your reference and quantity.",
     price: "Get quote",
     badge: "Flexible",
-    image: "images/sahil1.jpg",
+    image: "sahil1.jpg",
     icon: "",
     theme: ""
   }
