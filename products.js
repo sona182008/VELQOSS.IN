@@ -1,4 +1,4 @@
-const CATEGORIES = [
+noconst CATEGORIES = [
   { id: "cards", name: "Cards" },
   { id: "id", name: "ID / PVC" },
   { id: "invitation", name: "Invitation" },
@@ -200,7 +200,7 @@ const PRODUCTS = [
     image: "sahil13.jpg",
     icon: "",
     theme: ""
-  }},
+  },
   
   {
     name: "Custom Printing",
@@ -308,4 +308,6 @@ const PRODUCTS = [
     icon: "",
     theme: ""
   }
+  ];
+
   
