@@ -308,6 +308,6 @@ const PRODUCTS = [
     icon: "",
     theme: ""
   }
-  ];
+];
 
   
