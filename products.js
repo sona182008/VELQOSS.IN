@@ -107,7 +107,7 @@ const PRODUCTS = [
       "Custom printing for suitable sublimation blanks and products.",
     price: "Get quote",
     badge: "Custom",
-    image: "sahil2.jpg",
+    image: "sahil12.jpg",
     icon: "◇",
     theme: ""
   },
@@ -133,7 +133,7 @@ const PRODUCTS = [
       "Have a different requirement? Send your reference and quantity.",
     price: "Get quote",
     badge: "Flexible",
-    image: "sahil1.jpg",
+    image: "sahil11.jpg",
     icon: "",
     theme: ""
   }
