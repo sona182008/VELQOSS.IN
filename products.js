@@ -94,7 +94,7 @@ const PRODUCTS = [
       "Personalized photo products and custom gift printing.",
     price: "Ask availability",
     badge: "Custom",
-    image: "sahil15.jpg",
+    image: "sahil8.jpg",
     icon: "♡",
     theme: "theme-red"
   },
@@ -107,7 +107,7 @@ const PRODUCTS = [
       "Custom printing for suitable sublimation blanks and products.",
     price: "Get quote",
     badge: "Custom",
-    image: "sahil12.jpg",
+    image: "sahil11.jpg",
     icon: "◇",
     theme: ""
   },
@@ -133,7 +133,7 @@ const PRODUCTS = [
       "Have a different requirement? Send your reference and quantity.",
     price: "Get quote",
     badge: "Flexible",
-    image: "sahil11.jpg",
+    image: "sahil13.jpg",
     icon: "",
     theme: ""
   }
