@@ -1,4 +1,4 @@
-noconst CATEGORIES = [
+const CATEGORIES = [
   { id: "cards", name: "Cards" },
   { id: "id", name: "ID / PVC" },
   { id: "invitation", name: "Invitation" },
