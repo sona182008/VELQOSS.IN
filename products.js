@@ -307,6 +307,244 @@ const PRODUCTS = [
     image: "sahil13.jpg",
     icon: "",
     theme: ""
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+   },
+  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+},
+  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+  },  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme:
+},  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
+  },  
+  {
+    name: "Custom Printing",
+    category: "design",
+    categoryLabel: "Design",
+    description:
+      "Have a different requirement? Send your reference and quantity.",
+    price: "Get quote",
+    badge: "Flexible",
+    image: "sahil13.jpg",
+    icon: "",
+    theme: 
   }
 ];
 
